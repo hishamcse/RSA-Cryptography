@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.DialogPane?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.RSAAttacks.HastadAttackController"
+            prefHeight="400.0" prefWidth="600.0">
+    <content>
+        <VBox alignment="CENTER" spacing="15">
+            <Label text="Enter first ciphertext" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="ciphertext1" prefWidth="600" prefHeight="80"/>
+            <Label text="Enter first modulo" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="modulo1" prefWidth="600" prefHeight="40"/>
+            <Label text="Enter second ciphertext" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="ciphertext2" prefWidth="600" prefHeight="80"/>
+            <Label text="Enter second modulo" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="modulo2" prefWidth="600" prefHeight="40"/>
+            <Button text="Process" fx:id="btn" style="-fx-border-radius: 10;-fx-font-size: 14;-fx-font-weight: bold"/>
+            <Label text="Original broadcast message" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea fx:id="label" promptText="First Original Message will appear here" style="-fx-border-radius: 15;-fx-border-color: black;-fx-font-size: 15" prefWidth="600" prefHeight="35" editable="false"/>
+        </VBox>
+    </content>
+</DialogPane>

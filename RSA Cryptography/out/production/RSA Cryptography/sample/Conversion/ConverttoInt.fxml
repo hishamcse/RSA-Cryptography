@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.Conversion.ConverttoIntController"
+            prefHeight="400.0" prefWidth="600.0">
+    <content>
+        <VBox alignment="CENTER" spacing="20">
+        <Label text="Enter the message" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 16px"/>
+        <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 16px" fx:id="textarea" prefWidth="600" prefHeight="100"/>
+         <Button text="Process" fx:id="btn" style="-fx-border-radius: 10;-fx-font-size: 14;-fx-font-weight: bold"/>
+         <Label text="Equivalent ASCII" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 16px"/>
+        <TextArea fx:id="label" promptText="Your converted ascii will appear here" style="-fx-border-radius: 14;-fx-border-color: black;-fx-font-size: 15" prefWidth="600" prefHeight="60" editable="false"/>
+        </VBox>
+    </content>
+
+</DialogPane>

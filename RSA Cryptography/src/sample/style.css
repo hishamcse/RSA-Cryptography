@@ -1,0 +1,7 @@
+#background{
+    -fx-background-image: url("Images/background.jpeg");
+    -fx-background-repeat: no-repeat;
+}
+#borderPane{
+    -fx-background-image: url("Images/large.jpg");
+}

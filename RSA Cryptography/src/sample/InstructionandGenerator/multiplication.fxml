@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.DialogPane?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.control.Button?>
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.InstructionandGenerator.MultiplicationController"
+            prefHeight="400.0" prefWidth="600.0">
+    <content>
+        <VBox alignment="CENTER" spacing="20">
+            <Label text="Enter first number" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 16px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 16px" fx:id="a" prefWidth="600" prefHeight="80"/>
+            <Label text="Enter second number" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 16px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 16px" fx:id="b" prefWidth="600" prefHeight="80"/>
+            <Button text="Process" fx:id="btn" style="-fx-border-radius: 10;-fx-font-size: 14;-fx-font-weight: bold"/>
+            <Label text="Result" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 16px"/>
+            <TextArea style="-fx-border-radius: 15;-fx-text-fill: black;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 16px" fx:id="modulo" prefWidth="600" prefHeight="100" editable="false"/>
+        </VBox>
+    </content>
+</DialogPane>

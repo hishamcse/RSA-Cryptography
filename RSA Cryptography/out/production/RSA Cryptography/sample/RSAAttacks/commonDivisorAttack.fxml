@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+
+<?import javafx.scene.layout.VBox?>
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.RSAAttacks.CommonDivisorAttackController"
+            prefHeight="700.0" prefWidth="600.0">
+    <content>
+        <VBox alignment="CENTER" spacing="7">
+            <Label text="Enter first ciphertext" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="ciphertext1" prefWidth="600" prefHeight="60"/>
+            <Label text="Enter first modulo" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="modulo1" prefWidth="600" prefHeight="35"/>
+            <Label text="Enter first public key exponent" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="exponent1" prefWidth="600" prefHeight="35"/>
+            <Label text="Enter second ciphertext" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="ciphertext2" prefWidth="600" prefHeight="60"/>
+            <Label text="Enter second modulo" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="modulo2" prefWidth="600" prefHeight="35"/>
+            <Label text="Enter second public key exponent" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea style="-fx-background-color: #333333;-fx-border-radius: 15;-fx-text-fill: white;-fx-border-width: inherit;-fx-border-color: black;-fx-font-size: 14px" fx:id="exponent2" prefWidth="600" prefHeight="35"/>
+            <Button text="Process" fx:id="btn" style="-fx-border-radius: 10;-fx-font-size: 14;-fx-font-weight: bold"/>
+            <Label text="first Original message" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea fx:id="label1" promptText="First Original Message will appear here" style="-fx-border-radius: 15;-fx-border-color: black;-fx-font-size: 15" prefWidth="600" prefHeight="35" editable="false"/>
+            <Label text="second Original message" alignment="CENTER" style="-fx-font-weight: bold;-fx-font-size: 14px"/>
+            <TextArea fx:id="label2" promptText="Second Original Message will appear here" style="-fx-border-radius: 15;-fx-border-color: black;-fx-font-size: 15" prefWidth="600" prefHeight="35" editable="false"/>
+        </VBox>
+    </content>
+</DialogPane>
