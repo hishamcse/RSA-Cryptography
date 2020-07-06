@@ -23,7 +23,7 @@ public class InstructionController {
 
         test.setOnMouseClicked(event -> {
             try {
-                Desktop.getDesktop().browse(new URI("https://github.com/hishamcse/RSA-Cryptography/blob/master/RSA%20Cryptography/src/sample/InstructionandGenerator/testData.txt"));
+                Desktop.getDesktop().browse(new URI("https://github.com/hishamcse/RSA-Cryptography/tree/master/RSA%20Cryptography/TestData"));
             }catch (IOException | URISyntaxException e){
                 e.printStackTrace();
             }
