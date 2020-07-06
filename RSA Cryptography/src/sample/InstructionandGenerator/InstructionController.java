@@ -15,7 +15,7 @@ public class InstructionController {
     public void initialize(){
         hp.setOnMouseClicked(event -> {
             try{
-            Desktop.getDesktop().browse(new URI("http://www.javafx.com"));
+            Desktop.getDesktop().browse(new URI("https://github.com/hishamcse/RSA-Cryptography/blob/master/readme.txt"));
         }catch (IOException | URISyntaxException e){
             e.printStackTrace();
         }
@@ -23,7 +23,7 @@ public class InstructionController {
 
         test.setOnMouseClicked(event -> {
             try {
-                Desktop.getDesktop().browse(new URI("http://www.javafx.com"));
+                Desktop.getDesktop().browse(new URI("https://github.com/hishamcse/RSA-Cryptography/blob/master/RSA%20Cryptography/src/sample/InstructionandGenerator/testData.txt"));
             }catch (IOException | URISyntaxException e){
                 e.printStackTrace();
             }
