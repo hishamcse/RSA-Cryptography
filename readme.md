@@ -27,12 +27,12 @@ InvertModulo(a,n) which takes coprime integers a and n as inputs and returns int
 Here comes the original functionality of RSA. The user has to enter the MESSAGE/string,
 Public key exponent and the private key pair(p,q) 
 The program will return the encrypted CIPHERTEXT of the message.
-Ciphertext 𝑐 = 𝑚^e mod 𝑛
+#### Ciphertext 𝑐 = 𝑚^e mod 𝑛
 
 ## Decryption:
 Here the user has to enter the encrypted CIPHERTEXT, both component of the private key pair(p,q) and the public key exponent(e).The program will return the 
 Decrypted that means the original MESSAGE/string(d).
-𝑐^d ≡ 𝑚 mod 𝑛
+#### 𝑐^d ≡ 𝑚 mod 𝑛
 
 ## NOW COMES SOME ATTACKS THROUGH WHICH AN ENCRYPTED TEXT CAN BE DECRYPTED IF THE ENCRYPTION PROCESS IS NOT STRONG ENOUGH
 
@@ -62,7 +62,7 @@ In this case,the user has to enter the 	CIPHERTEXT and the MODULO for both.
 The program will show the original message. For simplicity,I have restricted the implementation e=2.But,for any e, it is possible. but the condition for working this algorithm is that e should be same as the number of receivers. That means, in this case for two receivers,e is 2.
 For three receivers, It should be 3 and so on.
 
-NB: these attacks function may take little bit of time(20-60 seconds) if the inputted numbers are too huge, but they will definitely work. Again, also sometimes application gets freezed and doesn’t respond, but be patient. It will automatically respond when the answer will be ready.
+#### NB: these attacks function may take little bit of time(20-60 seconds) if the inputted numbers are too huge, but they will definitely work. Again, also sometimes application gets freezed and doesn’t respond, but be patient. It will automatically respond when the answer will be ready.
 
 [However, tremendous course on NUMBER THEORY AND CRYPTOGRAPHY on COURSERA   (By University of CALIFORNIA San Diago and Higher School of Economics) has encouraged me to implement this simple application.]
 
