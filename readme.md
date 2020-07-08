@@ -50,7 +50,7 @@ The MODULO and the public key EXPONENT and the program will show the original me
 The sender is using RSA encryption with a public key modulo, exponent such that modulo = 
 p⋅ q with |p - q| < 5000, that is the difference of the private key pair is very small, and you know about it. You want to break the cipher and decrypt the message.
 In this case, this function will help, the user has to input the CIPHERTEXT,
-The MODULO and the public key EXPONENT and program will show the original message. Again, the program can’t find it in case the difference is bigger than 10000 then the program will show a warning.
+The MODULO and the public key EXPONENT and program will show the original message. Again, the program can’t find it in case the difference is bigger than 5000 then the program will show a warning.
 
 ## Decipher Common Divisor:
 You've discovered that the first prime number p for the private key was generated with the same algorithm and the same random seed by two different senders Alice and Angelina due to insufficient randomness, while the second prime q is different for those two private keys. You want to break both ciphers and decipher messages from both Alice and Angelina.
