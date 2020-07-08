@@ -82,7 +82,7 @@ public class Controller {
 
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(borderPane.getScene().getWindow());
-        dialog.setTitle("Conversion to Int");
+        dialog.setTitle("Instruction");
         FXMLLoader fxmlLoader=new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("InstructionandGenerator/instruction.fxml"));
         try {
@@ -129,7 +129,7 @@ public class Controller {
     public void multiplication(){
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(borderPane.getScene().getWindow());
-        dialog.setTitle("Random Prime Generator");
+        dialog.setTitle("Big Multiplication");
         FXMLLoader fxmlLoader=new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("InstructionandGenerator/multiplication.fxml"));
         try {
@@ -153,7 +153,7 @@ public class Controller {
 
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(borderPane.getScene().getWindow());
-        dialog.setTitle("Conversion to Int");
+        dialog.setTitle("Conversion to ASCII");
         FXMLLoader fxmlLoader=new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("Conversion/ConverttoInt.fxml"));
         try {
@@ -352,7 +352,7 @@ public class Controller {
 
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(borderPane.getScene().getWindow());
-        dialog.setTitle("Decipher Small Prime");
+        dialog.setTitle("Decipher Small Difference");
         FXMLLoader fxmlLoader=new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("RSAAttacks/smallDifferenceAttack.fxml"));
         try {
@@ -376,7 +376,7 @@ public class Controller {
 
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(borderPane.getScene().getWindow());
-        dialog.setTitle("Decipher Small Prime");
+        dialog.setTitle("Decipher Common Divisor");
         FXMLLoader fxmlLoader=new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("RSAAttacks/commonDivisorAttack.fxml"));
         try {
@@ -400,7 +400,7 @@ public class Controller {
 
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(borderPane.getScene().getWindow());
-        dialog.setTitle("Decipher Small Prime");
+        dialog.setTitle("Decipher Hastad");
         FXMLLoader fxmlLoader=new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("RSAAttacks/hastadAttack.fxml"));
         try {
