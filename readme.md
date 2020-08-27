@@ -8,7 +8,7 @@ NB: 2048 bitlength is also possible, but it takes much time and sometimes applic
 And, 1024 bitlength prime will also be used throughout the application.
 
 ## Big Multiplication:
-It generates the multiplication of two big number. Again ,for simplicity, two numbers consist of less than or equal to 1024 digits length.
+It generates the multiplication of two big number (using Karatsuba Multiplication Algorithm). Again ,for simplicity, two numbers consist of less than or equal to 1024 digits length.
 
 ## String to ASCII code:
 Here the user has to input a message(string) in the required field and the program will return the ASCII equivalent of that message.
