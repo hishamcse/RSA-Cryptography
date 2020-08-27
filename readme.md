@@ -1,6 +1,6 @@
 This application is an implementation of various methods needed for the RSA Cryptography using NUMBER THEORY algorithms. In this application, I have implemented some of the algorithms to find out various things related to RSA Cryptography  taught in the NUMBER THEORY AND CRYPTOGRAPHY COURSE at COURSERA. The names of the functionalities are the names of the buttons. <br />
 The test data set can be found here: [All Test Data](https://github.com/hishamcse/RSA-Cryptography/tree/master/RSA%20Cryptography/TestData) <br />
-Here is a small description of the methods and how to use them in this application. 
+Here is a small description of the methods and how to use them in this application. [Updated]
 
 ## Random Prime Generator:
 It generates random prime number of 1024 bitlength.
@@ -8,7 +8,7 @@ NB: 2048 bitlength is also possible, but it takes much time and sometimes applic
 And, 1024 bitlength prime will also be used throughout the application.
 
 ## Big Multiplication:
-It generates the multiplication of two big number. Again ,for simplicity, two numbers consist of less than or equal to 1024 digits length.
+It generates the multiplication of two big number (using Karatsuba Multiplication Algorithm). Again ,for simplicity, two numbers consist of less than or equal to 1024 digits length.
 
 ## String to ASCII code:
 Here the user has to input a message(string) in the required field and the program will return the ASCII equivalent of that message.
