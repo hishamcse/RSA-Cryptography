@@ -29,7 +29,7 @@ public class PowmodController {
         String a=textarea.getText().trim();
         String n=power.getText().trim();
         String modu=modulo.getText().trim();
-        System.out.println(CommonFunction.powmod(new BigInteger(a),new BigInteger(n),new BigInteger(modu)));
-        label.setText(String.valueOf(CommonFunction.powmod(new BigInteger(a),new BigInteger(n),new BigInteger(modu))));
+        System.out.println(CommonFunction.powMod(new BigInteger(a),new BigInteger(n),new BigInteger(modu)));
+        label.setText(String.valueOf(CommonFunction.powMod(new BigInteger(a),new BigInteger(n),new BigInteger(modu))));
     }
 }

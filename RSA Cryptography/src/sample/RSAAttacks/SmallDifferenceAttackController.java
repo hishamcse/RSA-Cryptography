@@ -24,7 +24,7 @@ public class SmallDifferenceAttackController {
         String c=ciphertext.getText().trim();
         String modu=modulo.getText().trim();
         String exp=exponent.getText().trim();
-        String result= CommonFunction.deciphersmalldiff(new BigInteger(c),new BigInteger(modu),new BigInteger(exp));
+        String result= CommonFunction.decipherSmallDiff(new BigInteger(c),new BigInteger(modu),new BigInteger(exp));
         if(result!=null){
             label.setText(result);
         }else{

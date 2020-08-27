@@ -25,13 +25,13 @@
                 <Button text="Big Multiplication" fx:id="big"
                         style="-fx-font-size: 16;-fx-background-radius: 10;-fx-font-weight: bold" maxWidth="250"
                         mnemonicParsing="false"/>
-                <Button text="String to ASCII code" fx:id="conversionint"
+                <Button text="String to ASCII code" fx:id="conversionInt"
                         style="-fx-font-size: 16;-fx-background-radius: 10;-fx-font-weight: bold" maxWidth="250"
                         mnemonicParsing="false"/>
-                <Button text="ASCII code to String" fx:id="conversionstring"
+                <Button text="ASCII code to String" fx:id="conversionString"
                         style="-fx-font-size: 16;-fx-background-radius: 10;-fx-font-weight: bold" maxWidth="250"
                         mnemonicParsing="false"/>
-                <Button text="Powmod Function" fx:id="powmod"
+                <Button text="Powmod Function" fx:id="powMod"
                         style="-fx-font-size: 16;-fx-background-radius: 10;-fx-font-weight: bold" maxWidth="250"
                         mnemonicParsing="false"/>
                 <Button text="InvertModulo Function" fx:id="invert"
@@ -46,13 +46,13 @@
                 <Button text="Decipher Simple" fx:id="simple"
                         style="-fx-font-size: 16;-fx-background-radius: 10;-fx-font-weight: bold" maxWidth="250"
                         mnemonicParsing="false"/>
-                <Button text="Decipher Small Prime" fx:id="smallprime"
+                <Button text="Decipher Small Prime" fx:id="smallPrime"
                         style="-fx-font-size: 16;-fx-background-radius: 10;-fx-font-weight: bold" maxWidth="250"
                         mnemonicParsing="false"/>
-                <Button text="Decipher Small Difference" fx:id="smalldiff"
+                <Button text="Decipher Small Difference" fx:id="smallDiff"
                         style="-fx-font-size: 16;-fx-background-radius: 10;-fx-font-weight: bold" maxWidth="250"
                         mnemonicParsing="false"/>
-                <Button text="Decipher Common Divisor" fx:id="commondivisor"
+                <Button text="Decipher Common Divisor" fx:id="commonDivisor"
                         style="-fx-font-size: 16;-fx-background-radius: 10;-fx-font-weight: bold" maxWidth="250"
                         mnemonicParsing="false"/>
                 <Button text="Decipher Hastad" fx:id="hastad"

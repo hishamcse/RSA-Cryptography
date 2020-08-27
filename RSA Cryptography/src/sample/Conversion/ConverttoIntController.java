@@ -23,7 +23,7 @@ public class ConverttoIntController {
     @FXML
     public void process(){
         String s=textarea.getText().trim();
-        System.out.println(CommonFunction.ConvertoBigInt(s));
-        label.setText(CommonFunction.ConvertoBigInt(s).toString());
+        System.out.println(CommonFunction.ConvertToBigInt(s));
+        label.setText(CommonFunction.ConvertToBigInt(s).toString());
     }
 }

@@ -30,7 +30,7 @@ public class simpleAttackController {
         all[0]=imagine1.getText().trim();
         all[1]=imagine2.getText().trim();
         all[2]=imagine3.getText().trim();
-        String result= CommonFunction.deciphersimple(new BigInteger(c),new BigInteger(modu),new BigInteger(exp),all);
+        String result= CommonFunction.decipherSimple(new BigInteger(c),new BigInteger(modu),new BigInteger(exp),all);
         if(result!=null){
             label.setText(result);
         }else{

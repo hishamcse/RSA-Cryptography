@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Hyperlink?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.InstructMultGenerate.InstructionController"
+            prefHeight="500.0" prefWidth="700.0">
+    <VBox alignment="CENTER">
+        <Label text="Instructions" alignment="CENTER" style="-fx-font-size: 20;-fx-font-weight: bold"/>
+        <padding>
+        <Insets left="100" right="100" top="50"/>
+        </padding>
+        <TextFlow prefWidth="450" style="-fx-font-size: 14" lineSpacing="10">
+            <Text textAlignment="CENTER" text="Full Instruction at the following link: " style="-fx-font-weight: bold;-fx-font-size: 18"/>
+            <Hyperlink alignment="CENTER" text="Instructions " fx:id="hp" style="-fx-font-size: 16;-fx-font-weight: bold;-fx-alignment: center;-fx-text-fill: cornflowerblue"/>
+            <Text textAlignment="CENTER" text=" Sample test cases for the program at the following link: " style="-fx-font-weight: bold;-fx-font-size: 18"/>
+            <Hyperlink alignment="CENTER" text="TestData" fx:id="test" style="-fx-font-size: 16;-fx-font-weight: bold;-fx-alignment: center;-fx-text-fill: cornflowerblue"/>
+        </TextFlow>
+    </VBox>
+</AnchorPane>

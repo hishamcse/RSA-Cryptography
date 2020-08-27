@@ -23,8 +23,8 @@ public class ConverttoStringController {
 
     public void process(){
         String s=textarea.getText().trim();
-        System.out.println(CommonFunction.ConverttoString(new BigInteger(s)));
-        label.setText(CommonFunction.ConverttoString(new BigInteger(s)));
+        System.out.println(CommonFunction.ConvertToString(new BigInteger(s)));
+        label.setText(CommonFunction.ConvertToString(new BigInteger(s)));
     }
 
 }

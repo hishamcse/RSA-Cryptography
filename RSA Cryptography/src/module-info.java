@@ -6,7 +6,7 @@ module RSA.Cryptography {
 
     opens sample;
     opens sample.Conversion;
-    opens sample.InstructionandGenerator;
+    opens sample.InstructMultGenerate;
     opens sample.NumberTheory;
     opens sample.EncryptDecrypt;
     opens sample.RSAAttacks;
