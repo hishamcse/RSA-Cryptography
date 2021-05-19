@@ -68,7 +68,7 @@ For three receivers, It should be 3 and so on.
 
 [However, tremendous course on NUMBER THEORY AND CRYPTOGRAPHY on COURSERA   (By University of CALIFORNIA San Diago and Higher School of Economics) has encouraged me to implement this simple application.]
 
-Course link: https://www.coursera.org/learn/number-theory-cryptography
+Course link: [number theory & cryptography](https://www.coursera.org/learn/number-theory-cryptography)
 
 
 
