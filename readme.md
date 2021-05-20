@@ -2,6 +2,8 @@
 
  ![GitHub repo size](https://img.shields.io/github/repo-size/hishamcse/RSA-Cryptography)
  ![GitHub top language](https://img.shields.io/github/languages/top/hishamcse/RSA-Cryptography)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/hishamcse/RSA-Cryptography?style=social)
+ ![GitHub forks](https://img.shields.io/github/forks/hishamcse/RSA-Cryptography?style=social)
  
  </h2>
 
