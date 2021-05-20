@@ -1,6 +1,8 @@
 <h2 align="center"> RSA Cryptography 
 
  ![GitHub repo size](https://img.shields.io/github/repo-size/hishamcse/RSA-Cryptography)
+ ![GitHub top language](https://img.shields.io/github/languages/top/hishamcse/RSA-Cryptography)
+ 
  </h2>
 
 This Javafx application is a Java implementation along with Jupyter Notebook of various methods needed for the RSA Cryptography using NUMBER THEORY algorithms. In this application, I have implemented some of the algorithms to find out various things related to RSA Cryptography  taught in the NUMBER THEORY AND CRYPTOGRAPHY COURSE at COURSERA. The names of the functionalities are the names of the buttons. <br />
