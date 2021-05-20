@@ -2,6 +2,7 @@
 
  ![GitHub repo size](https://img.shields.io/github/repo-size/hishamcse/RSA-Cryptography)
  ![GitHub top language](https://img.shields.io/github/languages/top/hishamcse/RSA-Cryptography)
+ [![HitCount](http://hits.dwyl.com/{hishamcse}/{RSA-Cryptography}.svg)](http://hits.dwyl.com/{hishamcse}/{RSA-Cryptography})
  
  </h2>
 
